@@ -1,0 +1,119 @@
+/* start header */
+@media (max-width: 399px) {
+  header .container {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  header nav .fa-bars {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  header nav ul {
+    display: none;
+  }
+
+  header nav .fa-bars:hover + ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: rgb(0 0 0 / 50%);
+  }
+}
+/* end header */
+
+/* start landing */
+@media (max-width: 767px) {
+  .landing .contenir {
+    padding-top: 26%;
+  }
+}
+
+/* end landing */
+
+/* start why */
+@media (max-width: 767px) {
+  .why .part {
+    display: inline-block;
+    margin-top: 10%;
+  }
+  .why .box {
+    margin-bottom: 40px;
+  }
+  .why .line {
+    display: flex;
+    justify-content: center;
+    margin-left: 45%;
+  }
+}
+/* end why */
+/* start rainer */
+
+@media (max-width: 767px) {
+  .trainer .boxes {
+    display: inline-block;
+    margin-top: 10%;
+  }
+  .trainer .box {
+    margin-bottom: 40px;
+  }
+  .trainer .line {
+    display: flex;
+    justify-content: center;
+    margin-left: 45%;
+  }
+}
+/* end rainer */
+/* statrt contect */
+@media (max-width: 767px) {
+  .contect .contenir {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 10%;
+  }
+  .contect .form .line {
+    width: 60px;
+    height: 4px;
+    background-color: #ff2953;
+    margin-top: -4%;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    margin-left: 40%;
+  }
+  .contect .one input,
+  .contect .message input {
+    width: 90%;
+  }
+}
+/* end contect */
+
+/* start loction */
+@media (max-width: 767px) {
+  .loction .contenir {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 10%;
+  }
+  .loction .contenir .box {
+    margin-bottom: 10%;
+  }
+}
+/* end loction */
+footer {
+  background-color: #ffffff;
+  color: #ff2953;
+  padding: 15px;
+  text-align: center;
+}
+footer p {
+  color: #000;
+}
+footer span {
+  color: var(--color2);
+}
